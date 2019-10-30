@@ -3,7 +3,7 @@
 - `path.ts`                 文件目录操作
 - `dia..diagnostic.ts`      错误信息生成
 - `scanner.ts`              文件扫码
-- `utilities.ts`
+- `utilities.ts`            辅助功能函数
 - `parser.ts`               语法解析
 - `commandLineParser.ts`    命令行参数解析
 - `moduleNameResolver.ts`   模块名管理
