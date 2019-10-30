@@ -1,0 +1,9 @@
+- `types.ts`                类型声明
+- `sys.ts`                  node运行环境接口
+- `path.ts`                 文件目录操作
+- `dia..diagnostic.ts`      错误信息生成
+- `scanner.ts`              文件扫码
+- `utilities.ts`
+- `parser.ts`               语法解析
+- `commandLineParser.ts`    命令行参数解析
+- `moduleNameResolver.ts`   模块名管理
