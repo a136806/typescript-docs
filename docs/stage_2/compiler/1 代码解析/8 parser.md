@@ -1,7 +1,37 @@
 ## 功能说明
 > 文件语法解析
 
-## 流程 parseStatement
+## 核心操作
+### createSourceFile
+> 解析指定文件到`SourceFile`
+```ts
+export function createSourceFile(
+    fileName: string, 
+    sourceText: string, 
+    languageVersion: ScriptTarget, 
+    setParentNodes = false, 
+    scriptKind?: ScriptKind
+): SourceFile {
+    ....
+}
+```
+
+### Parser.parseSourceFile
+```ts
+export function parseSourceFile(
+    fileName: string, 
+    sourceText: string, 
+    languageVersion: ScriptTarget, 
+    syntaxCursor: IncrementalParser.SyntaxCursor | undefined, 
+    setParentNodes = false, 
+    scriptKind?: ScriptKind
+): SourceFile {
+    ...
+}
+```
+
+## 重要流程 
+### parseStatement
 -  `parseStatement`
     - `parseEmptyStatement`
     ```ts
