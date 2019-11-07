@@ -21,12 +21,12 @@ ts-node script.ts
 [github](https://github.com/dsherret/code-block-writer)
 
 ### ts-morph
-> ts的ast查看与操作
+> ts的ASTNode生成,查看与操作
 [官网](https://ts-morph.com/)
 [github](https://github.com/dsherret/ts-morph)
 
 ### ts-factory-code-generator
-> ts的ast组装生成
+> ts的源代码转ast组装生成
 [github](https://github.com/dsherret/ts-factory-code-generator-generator)
 
 ### ast-viewer
